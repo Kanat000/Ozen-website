@@ -1,0 +1,110 @@
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.863);
+    width: 100%;
+    height: 70px;
+}
+header a{
+    text-decoration: none;
+}
+.central-menu{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    height: 60px;
+}
+.central-menu a{
+    color: black;
+    font-size: 17px;
+    margin: 0 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.central-menu a:hover{
+    color: black;
+    opacity: 0.6;
+}
+.logotype{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown{
+    margin-bottom: -8px;
+}
+.reserve a:hover{
+    color: white;
+    opacity: 0.6;
+}
+footer{
+    background-color: lightgrey;
+    color: black;
+    left: 0;
+    bottom: 0;
+}
+.info{
+    padding-top: 30%;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials li{
+    margin: 25px;
+}
+.socials a{
+    text-decoration: none;
+    color: black;
+}
+.socials a i{
+    font-size: 30px;
+}
+.socials a:hover i{
+    color: black;
+    opacity: 0.6;
+}
+.copyright{
+    text-align: center;
+    font-size: 15px;
+}
+.linkk a:hover{
+    color: black;
+    opacity: 0.6;
+}
+.mainimg{
+    width: 100%;
+    height: 600px;
+}
+.mainname{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+.panoimg{
+    width: 100%;
+}
+.mainvideo{
+    width: 55%;
+    padding-top: 75px;
+}
+hr{
+    height: 200px;
+    border: 4px solid rgba(0, 0, 0, 0.76);
+    border-radius: 9px;
+    width: 45%;
+    margin-left: 27%;
+}
+.barinfo{
+    padding-left: 400px;
+}
+.wrapper{
+    display: grid;
+    grid-gap: 10px;
+    width: 50%;
+    height: 50%;
+    grid-template-columns: repeat(4, 1fr);
+}

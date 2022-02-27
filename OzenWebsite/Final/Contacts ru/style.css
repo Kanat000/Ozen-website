@@ -1,0 +1,60 @@
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.863);
+    width: 100%;
+    height: 70px;
+}
+header a{
+    text-decoration: none;
+}
+.central-menu{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    height: 60px;
+}
+.central-menu a{
+    color: black;
+    font-size: 17px;
+    margin: 0 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.central-menu a:hover{
+    color: black;
+    opacity: 0.6;
+}
+.logotype{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown{
+    margin-bottom: -8px;
+}
+.reserve a:hover{
+    color: white;
+    opacity: 0.6;
+}
+main{
+    padding-top: 120px;
+}
+.socials{
+    list-style: none;
+}
+.socials li{
+    margin: 25px;
+}
+.socials a{
+    text-decoration: none;
+    color: black;
+}
+.socials a i{
+    font-size: 25px;
+}
+.socials a:hover i{
+    color: black;
+    opacity: 0.6;
+}
